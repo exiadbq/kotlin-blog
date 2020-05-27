@@ -31,4 +31,5 @@ class RepositoriesTests @Autowired constructor(
         val user = userRepository.findByLogin(juergen.login)
         assertThat(user).isEqualTo(juergen)
     }
+
 }
